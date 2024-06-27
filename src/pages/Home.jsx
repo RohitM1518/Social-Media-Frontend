@@ -29,12 +29,12 @@ const Home = () => {
           <h2 className="text-2xl text-center">Get Started</h2>
           <p className="mt-2 text-center flex justify-center items-center flex-col">
             <div className=' flex justify-center items-center'>
-              <div onClick={()=>{'/signup'}} className="hover:cursor-pointer">
-            <Button style=' hover:bg-white hover:text-black bg-black text-white hover:border hover:border-black'>Sign Up</Button>
+              <div onClick={()=>{navigate('/signup')}} className="hover:cursor-pointer">
+            <Button style=' hover:bg-white hover:text-black bg-black text-white lg:hover:border lg:hover:border-black'>Sign Up</Button>
             </div>
             or
-            <div onClick={()=>navigate('signin')} className="hover:cursor-pointer">
-            <Button style=' bg-white text-black border border-black hover:bg-black hover:text-white'>Sign In</Button>
+            <div onClick={()=>navigate('/signin')} className="hover:cursor-pointer">
+            <Button style=' bg-white text-black border border-black lg:hover:bg-black lg:hover:text-white'>Sign In</Button>
             </div>
             </div>
             <div>To start using the platform</div>
